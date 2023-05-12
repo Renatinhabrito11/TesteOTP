@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Página de Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Autenticação em Dois Fatores</h2>
+      <form action="auth" method="post">
+        <div class="user-box">
+          <input type="text" name="username" required="">
+          <label>Nome de Usuário</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="password" required="">
+          <label>Senha</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="otp" required="">
+          <label>Código OTP</label>
+        </div>
+        <input type="submit" name="" value="Entrar">
+      </form>
+    </div>
+  </body>
+</html>
